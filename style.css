@@ -1,0 +1,247 @@
+
+/* POLICES */
+
+@font-face {
+    font-family: 'unb_officeregular';
+    src: url('polices/unb_pro_regular/unb-office_regular-webfont.eot');
+    src: url('polices/unb_pro_regular/unb-office_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/unb_pro_regular/unb-office_regular-webfont.woff2') format('woff2'),
+         url('polices/unb_pro_regular/unb-office_regular-webfont.woff') format('woff'),
+         url('polices/unb_pro_regular/unb-office_regular-webfont.ttf') format('truetype'),
+         url('polices/unb_pro_regular/unb-office_regular-webfont.svg#unb_officeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'existencelight';
+    src: url('polices/existence_light_macroman/Existence-Light-webfont.eot');
+    src: url('polices/existence_light_macroman/Existence-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/existence_light_macroman/Existence-Light-webfont.woff2') format('woff2'),
+         url('polices/existence_light_macroman/Existence-Light-webfont.woff') format('woff'),
+         url('polices/existence_light_macroman/Existence-Light-webfont.ttf') format('truetype'),
+         url('polices/existence_light_macroman/Existence-Light-webfont.svg#existencelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* GENERAL */
+
+* {
+	font-family: 'unb_officeregular', arial, georgia, sans-serif;
+}
+
+body {
+	width: 100%;
+}
+
+#main_page {
+	display: flex;
+	flex-direction: row-reverse;
+	margin: auto;
+	width: 70%;
+	min-width: 768px;
+}
+
+#page {
+	width: 70%;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+}
+
+header strong, li, h3, p {
+	color: #444;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #444;
+}
+
+em {
+	font-style: normal;
+	font-size: 1.1em;
+}
+
+
+/* HEADER */
+
+h1 {
+	font-size: 3.3em;
+	font-weight: normal;
+	color: #FFC107;
+}
+
+.police {
+	font-family: 'existencelight', arial, georgia, sans-serif;
+	color: black;
+}
+
+header {
+	margin-bottom: 80px;
+}
+
+header span {
+	padding-bottom: 2px;
+}
+
+header p {
+	position: relative;
+	font-size: 1.5em;
+	bottom: 30px;
+}
+
+
+/* MAIN */
+
+#main {
+	margin: 5%;
+	width: 70%;
+}
+
+#main h2 {
+	padding-bottom: 10px;
+	border-bottom: 1.5px solid #FFC107;
+}
+
+.flex {
+	display: flex;
+}
+
+.date {
+	position: relative;
+	right: 25px;
+	display: flex;
+}
+
+.date ul {
+	width: 90px;
+}
+
+.etablissement {
+	margin-left: 50px;
+}
+
+.etablissement_first {
+	margin-left: 42px;
+}
+
+.fa-circle {
+	font-size: 0.5em;
+	color: #FFC107;
+	position: relative;
+	top: 25px;
+	left: 27px;
+}
+
+.fa-dot-circle {
+	font-size: 1em;
+	color: #FFC107;
+	position: relative;
+	top: 20px;
+	left: 25px;
+}
+
+.orange {
+	border-bottom: 1.5px solid #FFC107;
+}
+
+.flex_recommandations {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex_recommandations div {
+	padding-right: 120px;
+}
+
+.fa-graduation-cap, .fa-briefcase, .fa-pencil-alt {
+	font-size: 1.5em;
+	color: #FFC107;
+	margin-right: 20px;
+}
+
+
+/* ASIDE */
+
+aside {
+	width: 30%;
+	background-color: #FFC107;
+	text-align: center;
+	min-width: 261px;
+}
+
+aside h2 {
+	background-color: #4c4c4c;
+	color: #FECA07;
+	padding: 5px;
+}
+
+#photo {
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+#photo img {
+	width: 80%;
+	height: 80%;
+	border-radius: 50%;
+	border: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+	margin: 10%;
+}
+
+#contact p {
+	text-align: left;
+	margin: auto;
+	margin-bottom: 15px;
+	word-wrap: break-word;
+}
+
+#a_propos p {
+	margin: 10%;
+	text-align: justify;
+	height: 1050px;
+}
+
+
+.fa-table-tennis, .fa-running, .fa-biking {
+	color:#4c4c4c;
+	font-size: 2.3em;
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid #4c4c4c;
+	border-radius: 50%;
+}
+
+
+/* Portables & Tablettes */
+
+@media all and (min-width: 768px) and (max-width: 1388px) {
+
+#main_page {
+	width: 100%;
+}
+
+}
+
+/* Smartphones */
+
+@media all and (max-device-width: 480px) {
+
+#main_page {
+	width: 100%;
+}
+
+}
