@@ -150,13 +150,10 @@ ul {
 	right: 30px;
 }
 
-#formations, #experiences, #recommandations {
+#formations, #experiences {
 	margin-bottom: 30px;
 }
 
-.flex_recommandations div {
-	margin-top: 20px;
-}
 
 .fa-circle {
 	font-size: 0.5em;
@@ -274,16 +271,6 @@ aside h2 {
 
 	.flex {
 		display: flex;
-	}
-
-	.flex_recommandations {
-		display: flex;
-		flex-wrap: wrap;
-	}
-
-	.flex_recommandations div {
-		margin-right: 10%;
-
 	}
 
 	#contact div, #a_propos p {
